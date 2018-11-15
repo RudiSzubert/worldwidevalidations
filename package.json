@@ -22,7 +22,7 @@
     "postversion": "git push origin master --tags --no-verify",
     "preversion": "npm run unit && npm run build"
   },
-  "author": "Tim Reynolds",
+  "author": "Mateusz Tadeja",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "23.3.9",
