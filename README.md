@@ -1,0 +1,1 @@
+Package is using ISO 3166-1 alpha-2 format for country identification

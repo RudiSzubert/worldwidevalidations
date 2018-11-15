@@ -58,5 +58,8 @@
       "js",
       "json"
     ]
+  },
+  "dependencies": {
+    "iso-country-codes": "0.0.5"
   }
 }
