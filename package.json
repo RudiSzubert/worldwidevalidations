@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-package-starter",
+  "name": "worldwidevalidations",
   "version": "1.0.0",
-  "description": "Boilerplate project to create npm package in typescript",
+  "description": "A tool containing identification and address validators",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
