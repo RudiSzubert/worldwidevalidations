@@ -5,12 +5,12 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timreynolds/typescript-npm-package-starter.git"
+    "url": "https://github.com/RudiSzubert/worldwidevalidations.git"
   },
   "bugs": {
-    "url": "https://github.com/timreynolds/typescript-npm-package-starter/issues"
+    "url": "https://github.com/RudiSzubert/worldwidevalidations/issues"
   },
-  "homepage": "https://github.com/timreynolds/typescript-npm-package-starter",
+  "homepage": "https://github.com/RudiSzubert/worldwidevalidations",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsc",
@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage",
     "lint": "tslint 'src/**/*.ts'",
     "prettier": "prettier --parser typescript --write '**/*.ts'",
-    "precommit": "lint-staged",
+    "prepush": "lint-staged",
     "postversion": "git push origin master --tags --no-verify",
     "preversion": "npm run unit && npm run build"
   },
