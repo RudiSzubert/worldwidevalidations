@@ -1,4 +1,4 @@
-import {CountryValidation} from "./_classes/CountryValidation";
+import {CountryValidation} from './_classes/CountryValidation';
 import {countries} from './countries';
 
 export function getCountryValidation(countryIsoCode: string) {
