@@ -1,6 +1,6 @@
 {
   "name": "worldwidevalidations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool containing identification and address validators",
   "main": "dist/index.js",
   "repository": {
