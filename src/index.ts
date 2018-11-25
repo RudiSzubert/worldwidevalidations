@@ -8,7 +8,7 @@ import {personalIdentification} from './personalIdentification/personalIdentific
 export class CountryValidation {
   public zipCode: IValidator;
   public companyOrganizationForms: Array<string>;
-  public documents: Array<IValidator>;
+  public documents: {[key: string]: IValidator};
   public isoCountryCode: string;
   public countryName: string;
   public personalIdentification: IValidator;
