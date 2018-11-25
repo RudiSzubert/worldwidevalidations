@@ -1,9 +1,9 @@
 import { IValidator } from '../../_interfaces/validator.interface';
+import { onlyNumbers } from '../../helpers/regexps'
 
 export const validator: IValidator = {
-  validate: (pesel: string) => {
-    const reg = /^[0-9]{11}$/;
-    if (!reg.test(pesel)) {
+  validate: (pesel: string): boolean => {
+    if (!onlyNumbers(pesel) || pesel.length !== 11) {
       return false;
     }
     const dig = ('' + pesel).split('');

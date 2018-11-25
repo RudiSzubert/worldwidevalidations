@@ -4,7 +4,7 @@ export const personalId: IValidator = {
     label: 'Dowód Osobisty',
     name: 'Polish number of personal identification document',
     format: 'AAA000000',
-    validate: (idNumber: string) => {
+    validate: (idNumber: string): boolean => {
       idNumber = idNumber.toUpperCase();
       if (idNumber.length !== 9) { return false; }
       const numbersArray = translateLettersToNumbers(idNumber);
