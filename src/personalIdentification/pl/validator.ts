@@ -19,6 +19,6 @@ export const validator: IValidator = {
     return parseInt(dig[10], 10) === control;
   },
   name: 'Poland PESEL validator',
-  format: '00000000000',
+  format: 'YYMMDD00000',
   label: 'PESEL'
 };
