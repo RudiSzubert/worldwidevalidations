@@ -6,6 +6,6 @@ export const validator: IValidator = {
             avs.match('[0-9]{3}\\.?[0-9]{2}\\.?[0-9]{3}\\.?[0-9]{3}'));// old one
       },
   name: 'AVS - Swiss social security number validator',
-  format: '000.000.000.000 or 756.0000.0000.00',
+  format: '000.00.000.000 or 756.0000.0000.00',
   label: 'AVS'
 };
