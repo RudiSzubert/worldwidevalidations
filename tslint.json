@@ -6,7 +6,7 @@
   "rules": {
     "variable-name": ["allow-leading-underscore"],
     "object-literal-sort-keys": false,
-    "no-console": [true, "log", "error"],
+    "no-console": [false],
     "array-type": [true, "generic"],
     "ordered-imports": false
   }

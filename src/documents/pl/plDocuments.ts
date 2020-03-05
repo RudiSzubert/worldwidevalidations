@@ -4,5 +4,5 @@ import { nip } from './nip';
 
 export const plDocuments: {[key: string]: IValidator} = {
   personalId,
-  nip
+  tin: nip
 };

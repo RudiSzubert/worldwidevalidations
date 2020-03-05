@@ -15,7 +15,7 @@ export class CountryValidation {
 
   constructor(countryIsoCode: string) {
     if (!countries[countryIsoCode]) {
-      throw new Error('Country currently unhandled. Please send email to mateusz.tadeja@gmail.com or fork and create' +
+      console.warn('Country currently unhandled. Please send email to mateusz.tadeja@gmail.com or fork and create' +
         'a pull request at https://github.com/RudiSzubert/worldwidevalidations if you need it');
     }
     this.isoCountryCode = countryIsoCode;
