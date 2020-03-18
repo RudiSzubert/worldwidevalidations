@@ -1,8 +1,7 @@
 export const companyOrganizationForms: Array<string> = [
-    'Sole Proprietor',
-    'Simple Partnership (Einfache Gesellschaft)',
-    'Limited partnership (Kommanditgesellschaft)',
-    'Limited Liability Company',
-    'Public Company',
-    'General partnership (Kollektivgesellschaft KG)\n'
+    'Limited Liability Company (Gesellschaft mit beschränkter Haftung) - GmbH',
+    'Joint Stock Company (Aktiengesellschaft) - AG',
+    'Limited Partnership (Kommanditgesellschaft) - KG',
+    'General Partnership (Offene Handelsgesellschaft) - oHG',
+    'Civil law Partnership (Gesellschaft bürgerlichen Rechts) - GbR'
 ];
