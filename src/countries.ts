@@ -1,4 +1,5 @@
 export const countries: {[key: string]: string} = {
     PL: 'Poland',
-    CH: 'Switzerland'
+    CH: 'Switzerland',
+    DE: 'Germany'
 };
